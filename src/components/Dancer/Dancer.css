@@ -7,8 +7,17 @@
   margin: 10px;
 }
 .grid {
-  background-color: rgb(87, 167, 241);
+  background-color: rgb(28, 205, 218);
   border: 1px solid rgb(247, 142, 158);
   border-radius: 5px;
   margin: 10px;
+  padding-bottom: 10px;
+}
+.regular-btn {
+  background-color: goldenrod;
+  width: 150px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
 }
