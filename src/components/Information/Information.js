@@ -10,16 +10,17 @@ const Information = () => {
     })
     return (
         <div className="information-container">
-            <div className="information-container">
-                <h3>Information: {infomation.length}</h3>
+            <div className="info-container">
+                {/* <h3>Information: {infomation.length}</h3> */}
                 {
                     infomation.map(informations => <Dancer 
-                        dancer={informations}
+                        informations ={informations}
                     ></Dancer>)
                 }
             </div>
             <div className="cart-container">
                 <h3>Added dancer: </h3>
+                <h4>Total Cost: $</h4>
             </div>
         </div>
     );
