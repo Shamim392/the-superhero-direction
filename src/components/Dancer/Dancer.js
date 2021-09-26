@@ -16,6 +16,7 @@ const Dancer = (props) => {
             <p>Age: {age}</p>
             <p>Salary: {salary}</p>
             <p>Phone: {phone}</p>
+            <p>Email: {email}</p>
             <button 
             onClick={() => props.handleAddToCart(props.informations)}
                 className="regular-btn">{buttonIcon } Add to Cart</button>

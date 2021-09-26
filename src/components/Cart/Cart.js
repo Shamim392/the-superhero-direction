@@ -10,7 +10,9 @@ const Cart = (props) => {
         <div className="cart">
             <h3>Added Items: {props.cart.length}</h3>
             <h4>Total Cost: ${total}</h4>
-            <p>{props.cart.name}</p>
+            {
+                props.cart.map(informations => <li>{informations.name}</li>)
+            }
             <button className="regular-btn">Review Total</button>
         </div>
     );
